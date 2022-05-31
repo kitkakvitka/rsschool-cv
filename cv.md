@@ -2,6 +2,7 @@
 * Location: Derry, Nothern Ireland
 * From: Kharkiv, Ukraine
 * Phone: +380966472961
+* Whatsapp: +380966472961
 * Email: dinka336337@gmail.com
 * Discord: kitkakvitka
 * GitHub: kitkakvitka
