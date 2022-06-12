@@ -20,7 +20,7 @@ html {
 }
 .nav-link {
   list-style: none;
-  padding: 0 28px;
+  padding: 0 20px;
   line-height: 50px;
   transition: .3s;
   text-decoration: none;
@@ -35,10 +35,11 @@ html {
   font-weight: 300;
   font-size: 16px;
   font-family: Roboto;
+  color: rgb(48, 61, 26);
 }
 
 .header_wrapper{
-  background-color:rgb(213, 244, 159);
+  background-color:rgb(222, 246, 180);
 }
 .body {
   width: 100%;
@@ -83,7 +84,16 @@ padding-left: 40px;
   display: flex;
   flex-wrap: wrap;
   background-color:white;
+  font-size: 14px;
+font-weight: 900;
+font-family: Roboto;
+color: rgb(48, 61, 26);
 }
+.text {
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+} 
 .footer_container {
   max-width: 1440px;
   margin: 0 auto;
@@ -100,16 +110,15 @@ font-size: 32px;
 font-weight: 900;
 font-family: Roboto;
 color: rgb(48, 61, 26);
-padding-left: 40px
+padding-left: 80px;
 }
 .section-subtitle {
 font-size: 16px;
 font-family: Roboto;
 color: darkolivegreen;
 text-transform: uppercase;
-padding-left: 20px;
+padding-left: 45px;
 padding-top: 20px;
-
 }
 
 .section-title {
@@ -141,8 +150,10 @@ flex-direction: column;
 display: flex;
 padding: 5px;
 }
+
 .contact__link {
   text-decoration: none;
+  color: rgb(48, 61, 26);
 }
 .contact__link:hover {
   color: rgb(119, 146, 74);
@@ -152,13 +163,13 @@ padding: 5px;
  margin-right: 15px;
 }
 .skills {
-font-size: 14px;
+font-size: 16px;
 font-family: Roboto;
 color: rgb(28, 36, 15);
 font-weight: 600;
 }
 .hard_skills {
-  list-style: square;
+  list-style: disc;
 }
 .soft_skills {
 list-style: disc;
@@ -168,6 +179,42 @@ list-style: disc;
   list-style: circle;
 }
 .line {
-  border-bottom: 1px solid rgb(119, 146, 74);
-lenght: 20 px;
+  border-bottom: 0.8px solid rgb(170, 190, 139);
+}
+.code {
+margin-left: 50px;
+padding-left: 50px;
+font-size: 14px;
+font-family: Roboto;
+color: rgb(48, 61, 26);
+font-weight: 600;
+}
+.section_code {
+  background-color:rgb(222, 246, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_img {
+  width: 80px;
+  padding-top: 10px;
+}
+.footer_container {
+  list-style: none;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Roboto;
+  display: flex;
+  background-color:rgb(48, 61, 26);
+  justify-content: space-evenly;
+  margin: 20px 0px 20px 0px;
+}
+.footer_block {
+  list-style: none;
+  line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+  color: rgb(156, 186, 108);
+
 }
