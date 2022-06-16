@@ -24,7 +24,7 @@ html {
   line-height: 50px;
   transition: .3s;
   text-decoration: none;
-  color: rgb(156, 186, 108);
+  color: rgb(156, 186, 108); 
 }
 
 .nav-link:hover {
@@ -216,5 +216,4 @@ font-weight: 600;
   transition: .3s;
   text-decoration: none;
   color: rgb(156, 186, 108);
-
 }
