@@ -49,12 +49,12 @@ I was learning on the stage 0 course in 2021 and should have begun stage 1 when 
 
 - University`s degree: V. N. Karazin Kharkiv National University (Classical philology,2010);
 - PhD degree: Oles Honchar Dnipro National University (10.01.04 - Literature of foreign countries, 2017);
-- Moodle (how to create online courses, 2021);
+- Moodle platform (how to create online courses, 2021);
 - RSS stage 0 (JavaScript-FrontEnd-preschool-RSSchool, 2022).
 
 ## Languages
 
 - Ukrainian, russian – native speaker;
-- French – A1 (learned in school and university);
+- French – A2 (learned in school and university);
 - English B2 (I`ve been living in the UK since May 2022, working with native speakers);
-- Latin and ancient greek – basic reading skills (my main specialization).
+- Latin and Ancient Greek – basic reading skills (my main specialization).
