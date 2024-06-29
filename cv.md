@@ -30,7 +30,7 @@ I was a Latin teacher at Kharkiv national medical university before russia start
 - Multitasking;
 - Tolerance of change and uncertainty;
 - Empathic and friendliness;
-- Being an exellent listener;
+- Being an excellent listener;
 - From Kharkiv.
 
 ## Code example
