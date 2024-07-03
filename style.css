@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth; 
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
