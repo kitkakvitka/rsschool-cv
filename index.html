@@ -1,12 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
 <body>
+  <div class="wrapper">
+  <header>
+  <div class="header_container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about" class="nav-link">About myself</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+    <div class="header_wrapper">
+        <div class="avatar">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+          <img src="./assets/img/dina.jpg" alt="avatar" style="width: 200px;height: 200px; border-radius: 100px;">
+        </div>
+        
+        <section class="name" id="name">
+          <h1 class="title"> Dina Diurba</h1> 
+          <div class="line"> </div>
+           <h2 class="section-subtitle">Junior Front-End Developer</h2>   
+  </section> 
+  </div>
+  </div>
+  </header>
 
+  <main>
+    <div class="main_container">
+<div class="left_column">
+  <section class="section" id="contacts">
+     <h2 class="section-title"> Contacts</h2>
+     <ul class="contact_menu">
+       <li class="contact_menu_item">
+       <div class="contact_img"> 
+        <img src="./assets/img/icon_mail.png" alt="mail" style="width: 20px;height: 20px;">
+       </div>
+       <div class="contact_text">
+        <a href="mailto:dinka336337@gmail.com" class="contact__link">dinka336337@gmail.com</a>
+       </div> 
+      </li>
+       <li class="contact_menu_item">
+         <div class="contact_img"> 
+          <img src="./assets/img/icon_discord.png" alt="discord" style="width: 20px;height: 20px;">
+         </div>
+        <div class="contact_text">  kitkakvitka
+        </div> 
+      </li>
+       <li class="contact_menu_item"> 
+        <div class="contact_img">
+          <img src="./assets/img/icon_github.png" alt="github" style="width: 20px;height: 20px;">
+        </div>
+        <div class="contact_text">
+          <a href="https://github.com/kitkakvitka" target="_blank" class="contact__link">github.com/kitkakvitka</a> 
+        </div>
+       </li>
+       <li class="contact_menu_item"> 
+        <div class="contact_img"> 
+          <img src="./assets/img/icon_telegram.png" alt="telegram" style="width: 20px;height: 20px;">
+        </div>
+        <div class="contact_text">
+        <a href="https://t.me/kitkakvitka" target="_blank" class="contact__link">t.me/kitkakvitka</a>
+      </div>
+       </li>
+       <li class="contact_menu_item">  
+        <div class="contact_img"> 
+          <img src="./assets/img/icon_insta.png" alt="instagram" style="width: 20px;height: 20px;">
+        </div>
+        <div class="contact_text">
+          <a href="https://www.instagram.com/kitkakvitka/" target="_blank" class="contact__link">kitkakvitka</a>
+        </div>
+       </li>
+     </ul>
+  </section>
+  <div class="line"> </div>
+  <section class="skills" id="skills">
+    <h2 class="section-title"> Skills</h2>
+    <ul class="hard_skills"> 
+<li class="hard_skill">Offline and online teaching</li>
+<li class="hard_skill">Managing team</li>
+<li class="hard_skill">Administration</li>
+<li class="hard_skill">Motivating and mentoring</li>
+<li class="hard_skill">Development and management educational courses</li>
+<li class="hard_skill">Pedagogical technologies</li>
+    </ul>
+    <div class="line"> </div>
+    <h2 class="section-title"> Soft skills </h2>
+    <ul class="soft_skills"> 
+
+      <li class="soft_skill">Critical thinking</li>
+      <li class="soft_skill">Empathic and friendliness</li>
+      <li class="soft_skill">Multitasking</li>
+      <li class="soft_skill">Tolerance of change and uncertainty</li>
+      <li class="soft_skill">Reactive problem management</li>
+      <li class="soft_skill">Good listener and storyteller</li>
+      <li class="soft_skill">From Kharkiv</li>
+          </ul>
+          <div class="line"> </div>
+          <h2 class="section-title"> Skills in progress</h2>
+          <ul class="in_progress_skills"> 
+            <li class="soft_skill">HTML5</li>
+            <li class="soft_skill">CSS3</li>
+            <li class="soft_skill">JS basic</li>
+            <li class="soft_skill">Git(hub)</li>
+            <li class="soft_skill">English</li>
+          </ul>
+ </section>
+</div>
+
+<div class="main_column">
+ 
+ <section class="section" id="about">
+  <h2 class="section-title">About myself</h2>
+  <p class="text"> I was a Latin teacher at Kharkiv national medical university before russia started the war in Ukraine. 
+    I was forced to move because russians are bombing my native city Kharkiv. 
+    I had to leave university after all the changes and since May 2022 I`ve been working in the UK for an organization helping Ukrainians 
+    to escape from the East and South regoins by moving to Northern Ireland. 
+    That project is finished now and I want to continue learning the basics of Web Development and be able to find a job during the next year.
+    </p>
+</section>
+<div class="line"> </div>
+
+<section class="section" id="experience">
+  <h2 class="section-title">Experience</h2>
+  <p class="text">I learnt a bit of programming from the stage 0 in 2021/22. I was studying the stage 0 course in 2021 
+    and should have begun stage 1 when russia started the war in Ukraine. 
+    I have just a bit of experience in programming so far but I can do different tasks related to the adults` educational process, 
+    development and implementation of training courses (including remote ones). 
+    I worked as Latin teacher from 2010 till 2022, got PhD in literature as well.
+      During my teaching I developped different communication and managing skills which can be useful working in team and remotely.
+    I also write excellent texts in Ukrainian and English. 
+    I hope that my soft skills will help me find a decent job in one year when I will improve my programming skills well enough. 
+    I am going to focus on The Front-end development positions but in general, I'm ready to try different roles.
+</p>
+</section>
+<div class="line"> </div>
+<section class="section" id="education">
+  <h2 class="section-title">Education</h2>
+<ul class="text"> 
+  <li> 2005–2010  – University: V. N. Karazin Kharkiv National University (Classical philology)</li>
+  <li> 2010–2014  – University: V. N. Karazin Kharkiv National University (Graduate school, 10.01.04) </li>
+  <li> 2016–2017  – PhD: Oles Honchar Dnipro National University (10.01.04)</li>
+  <li> 2020–2021  – Moodle (to create online courses);</li>
+  <li> 2021–2022  – part of the last stage 0 (JavaScript-FrontEnd-preschool-RSSchool-2021).</li>
+</ul>
+</section>
+<div class="line"> </div>
+<section class="section" id="languages">
+  <h2 class="section-title">Languages</h2>
+  <p class="text"> Ukrainian – native speaker;<br>
+     English – B2 (I`ve been living in the UK since May 2022, working with native speakers); <br>
+     French – A2;<br>
+     Latin and ancient greek – basic (my specialization).
+    </p>
+</section>
+<div class="line"> </div>
+
+</div>
+</div>
+<section class="section_code" id="code">
+  <h2 class="section-title">Code example</h2>
+  <code class="code"> function strCount(obj) {
+    var count = 0;<br>
+    for (var val in obj){<br>
+      if(typeof obj[val] === 'object'){<br>
+       count += strCount(obj[val]);<br>
+      }<br>
+        if (typeof obj[val] === 'string'){<br>
+          count++;<br>
+        }<br>
+    }<br>
+      return count;
+  }<br>
+  <br>
+</code>
+</section>
+  </main>
+<footer>
+  <div class="footer_container">
+    <div class="footer_block">
+      <a href="https://github.com/kitkakvitka" target="_blank" class="footer_block">My github</a>
+     </div>
+     <div class="footer_block">
+       <div class="footer_img"> <a href="https://rs.school/js/" class="footer_link"> <img src="./assets/img/rs_school_js.svg" class="footer__image" alt=""></a> </div>
+     </div>	
+     <div class="footer_block"> 2022 </div>
+  </div>			
+  </footer>
+  </div>
 </body>
 </html>
